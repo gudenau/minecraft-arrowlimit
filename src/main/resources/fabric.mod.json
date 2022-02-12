@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "arrowlimit",
+  "version": "${version}",
+
+  "name": "Arrow Limit",
+  "description": "Prevents arrows from traveling too fast.",
+  "authors": [
+    "gudenau"
+  ],
+  "contact": {
+    "homepage": "https://github.com/gudenau/minecraft-arrowlimit",
+    "sources": "https://github.com/gudenau/minecraft-arrowlimit"
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "mixins": [
+    "arrowlimit.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": ">=1.18",
+    "java": ">=17"
+  }
+}
